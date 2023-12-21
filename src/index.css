@@ -1,0 +1,30 @@
+.userPageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.userPageMain {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 50px;
+  width: 100%;
+}
+
+.userPageMain a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.userPageMain a:hover {
+  text-decoration: underline;
+}
+
+.userDetails {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
